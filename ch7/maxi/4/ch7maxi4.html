@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="ch7maxi4.js"></script>
+    <script src="./jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        </div>
+
+        <h2> JQuery Validated Form </h2>
+        <form action="#" id="registration">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="john@doe.com">
+            <p></p>
+
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="John">
+            <p></p>
+
+            <label for="date">Today's Date</label>
+            <input type="date" name="date" id="date">
+            <p></p>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+            <p></p>
+
+            <label for="passwordRepeat">Password</label>
+            <input type="password" name="passwordRepeat" id="passwordRepeat" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+            <p></p>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

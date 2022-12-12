@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="ch7maxi3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="ch7maxi3.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        </div>
+
+        <form>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email">
+
+            <p></p>
+
+            <label for="stunum"><b>Student Number</b></label>
+            <input type="text" placeholder="Enter Student Number" name="stunum" id="stunum">
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" id="psw" placeholder="Enter Password" name="psw" >
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" id="psw-repeat" placeholder="Repeat Password" name="psw-repeat" >
+
+            <input id="register" type="button" class="registerbtn" value="Register">
+
+            <button id="animation" type="button">Click me for an animation!</button>
+        </form> 
+
+        <h2> Unsubscribe </h2>
+        <form id="unsubscribe-form">
+            <label for="email-unsub"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email-unsub" id="email-unsub">
+            <br>
+            <input type="submit" value="Unsubscribe">
+        </form>
+    </div>
+</body>
+</html>
